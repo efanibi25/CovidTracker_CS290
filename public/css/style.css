@@ -1,0 +1,260 @@
+#map {
+  height: 87%;
+  top:11%;
+  positon:absolute
+}
+
+
+html,body {
+  height: 100%;
+  width:100%
+  position:relative
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  font-family: Roboto;
+  top:5%;
+  width:100%;
+  position:absolute;
+  height:30%
+}
+
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width:100%;
+
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+/* Handlebar */
+.toolbar{
+  list-style-type: none;
+  position:absolute;
+  top:0;
+  background-color: #DCDCDC;
+  overflow: hidden;
+}
+
+.toolbar a{
+   color: #000000;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 30px;
+}
+
+.toolbar-element{
+  float:left
+}
+
+
+caption{
+  font-size: large;
+  font-weight: bold;
+  color:#C70039 ;
+  display:block;
+}
+
+#data{
+  background-image: url(protective-suit.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  width:auto
+  height:auto
+}
+
+#ak{
+  position:absolute;
+  top:85%;
+  color:#E64D2C
+}
+
+#hide,#info,#next,#prev{
+
+  display:inline-block;
+}
+
+
+
+
+#image{
+  width:100%;
+  height:90%;
+  overflow:hidden;
+}
+
+#form{
+  position:absolute;
+  top:60%;
+  left:6%;
+  color: white;
+}
+
+
+#resources{
+  background-image: url(coronavirus-4944680.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+
+#resourceslist{
+  position:absolute;
+  top:10%;
+  left:50%
+  color: white;
+  border-style:solid;
+}
+
+.newsheader{
+  position:absolute;
+  font-size: large;
+  left:40%;
+  top:20%;
+}
+
+#newsheader{
+  position:absolute;
+  left:40%;
+  top:12%;
+}
+
+#newstitle{
+  position:relative;
+  left:20%;
+}
+
+
+#news{
+  position:relative;
+  top:20%;
+  left:10%
+
+
+
+}
+
+#countytable{
+  width:20%;
+  location:absolute;
+  top:0%;
+  left:0%;
+  height:30%;
+  display:inline-block;
+}
+
+#statetable{
+  width:60%;
+  location:absolute;
+  top:0%;
+  left:100%;
+  height:30%;
+  display:inline-block;
+}
+
+
+
+
+  #countydatabody,#statedatabody {
+    border: 1px solid black;
+   border-radius: 15px 15px 15px 15px;
+   border-collapse: seperate;
+   border-spacing: 0;
+   font-family: "Open Sans", sans-serif;
+   background:#d3d3d3;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height:100%
+}
+thead{
+  display: block;
+  border: 1px solid black;
+  color:#ffffff ;
+ border-radius: 15px 15px 15px 15px;
+ border-collapse: seperate;
+ boder-spacing: 0;
+ font-family: "Open Sans", sans-serif;
+ background:#484848;
+ width:100%
+
+}
+td{
+width:100%;
+border: 1px solid black;
+text-align: center;
+}
+
+th{
+  width:100%
+}
+
+
+
+
+tr{
+width:100%;
+}
+
+#tables{
+position:absolute;
+top:10%;
+left:10%;
+width:100%;
+height:100%;
+
+}
+
+#buttons{
+  position:absolute;
+  top:80%;
+  width:20%;
+  height:10%;
+
+
+}
+
+#homebuttons{
+  position:absolute;
+  top:90%;
+  width:40%;
+  height:10%;
+
+
+}
